@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{34b87e5b-1f81-ea8c-8471-a594621f557e}</ProjectGuid>
+    <ProjectGuid>{4659d57b-c194-e919-c8fc-f5744574a340}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,94 +36,48 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Advertisement\SetMinimumDelayBetweenInterstitialYandexOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Social\CreatePostPlatformDependedOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Advertisement\RewardedState.cs" />
-     <Compile Include="Assets\Examples\Scripts\StoragePanel.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Social\JoinCommunityPlatformDependedOptions.cs" />
-     <Compile Include="Assets\Examples\Scripts\LeaderboardPanel.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Player\AuthorizePlatformDependedOptions.cs" />
-     <Compile Include="Assets\log_bridge.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Leaderboard\GetEntriesYandexOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Social\SocialModule.cs" />
-     <Compile Include="Assets\Examples\Scripts\SocialPanel.cs" />
-     <Compile Include="Assets\Scenes\enemy_dragon.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Leaderboard\ShowNativePopupVkOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Common\JsonHelper.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Player\PlayerModule.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Game\VisibilityState.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Bridge.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Leaderboard\LeaderboardModule.cs" />
-     <Compile Include="Assets\Scenes\dragonEgg.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Leaderboard\GetScorePlatformDependedOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Leaderboard\GetEntriesPlatformDependedOptions.cs" />
-     <Compile Include="Assets\Scenes\dragonPicker.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Advertisement\SetMinimumDelayBetweenInterstitialPlatformDependedOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Device\DeviceType.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Advertisement\ShowInterstitialPlatformDependedOptions.cs" />
-     <Compile Include="Assets\Examples\Scripts\AdvertisementPanel.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Leaderboard\ShowNativePopupPlatformDependedOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Leaderboard\GetScoreYandexOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Advertisement\InterstitialState.cs" />
-     <Compile Include="Assets\Examples\Scripts\PlayerPanel.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Advertisement\ShowInterstitialYandexOptions.cs" />
-     <Compile Include="Assets\Examples\Scripts\Example.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Social\ShareVkOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Platform\PlatformModule.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Player\AuthorizeYandexOptions.cs" />
-     <Compile Include="Assets\Examples\Scripts\DevicePanel.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Common\Singleton.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Device\DeviceModule.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Advertisement\SetMinimumDelayBetweenInterstitialVkOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Advertisement\ShowInterstitialVkOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Storage\StorageModule.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Game\GameModule.cs" />
-     <Compile Include="Assets\Examples\Scripts\PlatformPanel.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Leaderboard\LeaderboardEntry.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Social\SharePlatformDependedOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Leaderboard\SetScoreYandexOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Advertisement\AdvertisementModule.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\PlatformDependedOptionsBase.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\OptionsTargetPlatform.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Storage\StorageType.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Social\JoinCommunityVkOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Leaderboard\SetScorePlatformDependedOptions.cs" />
-     <Compile Include="Assets\InstantGamesBridge\Scripts\Modules\Social\CreatePostVkOptions.cs" />
-     <Compile Include="Assets\Scenes\energy_shield.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\_Scripts\energy_shield.cs" />
+     <Compile Include="Assets\GabrielBissonnette\Primo - Main Menu Pack\Essentials\_ForDemoOnly\ReturnToMainMenu.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\_Scripts\enemy_dragon.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\_Scripts\dragonEgg.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\_Scripts\dragonPicker.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\_Scripts\GameOver.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\_Scripts\MainMenuManager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\AudioManager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -383,13 +337,13 @@
         <HintPath>D:\UnityHub\UnityEditor\2021.3.10f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>D:\UnityHub\UnityEditor\2021.3.10f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -758,85 +712,82 @@
         <HintPath>D:\UnityHub\UnityEditor\2021.3.10f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="YandexGamesSDK">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\YandexGamesSDK.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-main\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>D:\UnityHub\UnityProjects\Dragon-Picker-lab3\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
