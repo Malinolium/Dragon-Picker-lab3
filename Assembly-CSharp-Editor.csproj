@@ -38,6 +38,15 @@
   <ItemGroup>
      <Compile Include="Assets\GabrielBissonnette\Primo - Main Menu Pack\Essentials\Editor\MainMenuEditor.cs" />
      <Compile Include="Assets\GabrielBissonnette\Primo - Main Menu Pack\Essentials\Editor\HierarchyWindowHeader.cs" />
+     <Compile Include="Assets\YandexGame\ScriptsYG\Editor\CSVManager.cs" />
+     <Compile Include="Assets\YandexGame\ScriptsYG\Editor\FontMasseInstallEditorWindow.cs" />
+     <Compile Include="Assets\YandexGame\Addons\UnityToolbag-main\ConditionallyVisiblePropertyDrawer\Editor\ConditionallyVisiblePropertyDrawer.cs" />
+     <Compile Include="Assets\YandexGame\ScriptsYG\Editor\CSVFileEditorWindow.cs" />
+     <Compile Include="Assets\YandexGame\ScriptsYG\Editor\CreateYandexGameEditor.cs" />
+     <Compile Include="Assets\YandexGame\ScriptsYG\Editor\BannerYGEditor.cs" />
+     <Compile Include="Assets\YandexGame\ScriptsYG\Editor\AutoLocalizationMasseWindow.cs" />
+     <Compile Include="Assets\YandexGame\ScriptsYG\Editor\TranslationTableEditorWindow.cs" />
+     <Compile Include="Assets\YandexGame\ScriptsYG\Editor\LanguageYGEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\UnityHub\UnityEditor\2021.3.10f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

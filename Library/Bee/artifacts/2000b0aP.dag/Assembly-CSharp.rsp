@@ -288,7 +288,6 @@
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll"
--r:"Library/Bee/artifacts/2000b0aP.dag/YandexGamesSDK.ref.dll"
 "Assets/AudioManager.cs"
 "Assets/GabrielBissonnette/Primo - Main Menu Pack/Essentials/_ForDemoOnly/ReturnToMainMenu.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

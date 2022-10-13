@@ -1,11 +1,5 @@
 {
   "dependencies": {
-    "com.k0fe.yandexgamessdk": {
-      "version": "file:C:/Users/farma/Downloads/yandex-games-plugin-unity-2e0b05f3901c278e5681799595f3de9f27ebf6a3/yandex-games-plugin-unity-2e0b05f3901c278e5681799595f3de9f27ebf6a3",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
     "com.unity.collab-proxy": {
       "version": "1.17.2",
       "depth": 0,
